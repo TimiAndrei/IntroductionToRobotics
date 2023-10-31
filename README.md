@@ -12,10 +12,10 @@ This assignment focuses on controlling each channel (Red, Green, and Blue) of  a
 
 To solve this assignment we will have a configuration like this: 
 
-![Homework 1 setup in simulator](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Homework1/Homework1.png)
+![Homework 1 schema](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Homework1/Homework1.png)
 (Link to simulator: https://wokwi.com/projects/379468552305848321)
 
-![Homework 1 setup in real life](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Homework1/Homework1_irl.jpeg)
+![Homework 1 setup](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Homework1/Homework1_irl.jpeg)
 
 This is the code we will have for this setup:
 
@@ -41,6 +41,12 @@ In this assignment we need to simulate a 3-floor elevator control system using L
 
 -> If the elevator is already at the desired floor, pressing the button for that floor should have no effect. Otherwise, after a button press, the elevator should ”wait for the doors to close” and then ”move” to the corresponding floor. If the elevator is in movement, it should either do nothing or it should stack its decision (get to the first programmed floor, open the doors, wait, close them and then go to the next desired floor).
 
+To solve this assignment we will have a configuration like this: 
 
+![Homework 2 setup](https://github.com/TimiAndrei/IntroductionToRobotics/blob/372f497a38467b5c5c651583c9a5b094905ad342/Homework2/Homework2_irl.jpeg)
+
+This is the code I used for this homework:
+
+https://github.com/TimiAndrei/IntroductionToRobotics/blob/372f497a38467b5c5c651583c9a5b094905ad342/Homework2/Homework2.ino
 
 Here is a video to see the working project: https://youtu.be/P__fKOr1wOE
