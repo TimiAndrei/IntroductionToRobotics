@@ -12,10 +12,10 @@ This assignment focuses on controlling each channel (Red, Green, and Blue) of  a
 
 To solve this assignment we will have a configuration like this: 
 
-![Homework 1 setup in simulator](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Images/Homework1.png)
+![Homework 1 setup in simulator](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Homework1/Homework1.png)
 (Link to simulator: https://wokwi.com/projects/379468552305848321)
 
-![Homework 1 setup in real life](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Images/Homework1_irl.jpeg)
+![Homework 1 setup in real life](https://github.com/TimiAndrei/IntroductionToRobotics/blob/main/Homework1/Homework1_irl.jpeg)
 
 This is the code we will have for this setup:
 
