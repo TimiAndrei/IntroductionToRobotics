@@ -50,3 +50,27 @@ This is the code I used for this homework:
 https://github.com/TimiAndrei/IntroductionToRobotics/blob/372f497a38467b5c5c651583c9a5b094905ad342/Homework2/Homework2.ino
 
 Here is a video to see the working project: https://youtu.be/P__fKOr1wOE
+
+# Homework 3
+
+---
+
+For this homework we will use the joystick to control the position of the segment and ”draw” on the display. The movement between segments should be natural, meaning they should jump from the current position only to neighbors, but without passing through ”walls”.
+
+-> The initial position should be on the DP. 
+-> The current position always blinks (irrespective of the fact that the segment is on or off). 
+-> Use the joystick to move from one position to neighbors (see table for corresponding movement). 
+-> Short pressing the button toggles the segment state from ON to OFF or from OFF to ON. 
+-> Long pressing the button resets the entire display by turning all the segments OFF and moving the current position to the decimal point.
+-> Must implement interrupts
+-> Bonus: added sound when toggling
+
+
+To solve this assignment we will have a configuration like this: 
+![Homework 3 setup](https://github.com/TimiAndrei/IntroductionToRobotics/blob/e6d21f2cb4b4ee777bc9788aa665f2287ef58528/Homework3/Homework3_irl.jpeg)
+
+This is the code I used for this homework:
+
+https://github.com/TimiAndrei/IntroductionToRobotics/blob/e6d21f2cb4b4ee777bc9788aa665f2287ef58528/Homework3/Homework3.ino
+
+Here is a video to see the working project: https://youtu.be/dbHrMogH7ek
