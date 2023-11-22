@@ -8,11 +8,10 @@ This repository pertains to the Robotics Laboratory assignments undertaken durin
 
 ---
 
+This assignment focuses on controlling each channel (Red, Green, and Blue) of an RGB LED using individual potentiometers. We will use a separate potentiometer for controlling each color of the RGB LED: Red, Green, and Blue. Specifically, we will read the potentiometer’s value with Arduino and then write amapped value to the LED pins.
+
 <details>
 <summary>Homework 1 details</summary>
-</details>
-
-This assignment focuses on controlling each channel (Red, Green, and Blue) of an RGB LED using individual potentiometers. We will use a separate potentiometer for controlling each color of the RGB LED: Red, Green, and Blue. Specifically, we will read the potentiometer’s value with Arduino and then write amapped value to the LED pins.
 
 To solve this assignment we will have a configuration like this:
 
@@ -27,15 +26,16 @@ https://github.com/TimiAndrei/IntroductionToRobotics/blob/372f497a38467b5c5c6515
 
 Here is a video to see the working project: https://youtu.be/cOPk6X2yHXM
 
+</details>
+
 # Homework 2
 
 ---
 
+In this assignment we need to simulate a 3-floor elevator control system using LEDs, buttons and a buzzer. Components consist of 4 LEDs, 3 buttons, 1 buzzer and rezistors.
+
 <details>
 <summary>Homework 2 details</summary>
-</details>
-
-In this assignment we need to simulate a 3-floor elevator control system using LEDs, buttons and a buzzer. Components consist of 4 LEDs, 3 buttons, 1 buzzer and rezistors.
 
 -> Each of the 3 LEDs should represent one of the 3 floors. The LED corresponding to the current floor should light up. Additionally, another LED should represent the elevator’s operational state. It should blink when the elevator is moving and remain static when stationary.
 (For the state LED I used an RGB led, having it blinking red when operating and remain static green when stationary)
@@ -58,16 +58,16 @@ https://github.com/TimiAndrei/IntroductionToRobotics/blob/372f497a38467b5c5c6515
 
 Here is a video to see the working project: https://youtu.be/P__fKOr1wOE
 
+</details>
+
 # Homework 3
 
 ---
 
-<details>
-<summary>Homework 3 details</summary>
-</details>
-
 For this homework we will use the joystick to control the position of the segment and ”draw” on the display. The movement between segments should be natural, meaning they should jump from the current position only to neighbors, but without passing through ”walls”.
 
+<details>
+<summary>Homework 3 details</summary>
 -> The initial position should be on the DP.
 
 -> The current position always blinks (irrespective of the fact that the segment is on or off).
@@ -91,16 +91,16 @@ https://github.com/TimiAndrei/IntroductionToRobotics/blob/e6d21f2cb4b4ee777bc978
 
 Here is a video to see the working project: https://youtu.be/dbHrMogH7ek
 
+</details>
+
 # Homework 4
 
 ---
 
-<details>
-<summary>Homework 4 details</summary>
-</details>
-
 For this assignment we will be using the 4 digit 7 segment display and 3 buttons, we will implement a stopwatch timer that counts in 10ths of a second and has a save lap functionality.
 
+<details>
+<summary>Homework 4 details</summary>
 Requirements: 1 7-segment display, 3 buttons, resistors and wires
 
 The starting value of the 4 digit 7 segment display should be ”000.0”. The buttons should have the following functionalities:
@@ -130,16 +130,16 @@ https://github.com/TimiAndrei/IntroductionToRobotics/blob/809757adfea6264a6e7100
 
 Here is a video to see the working project: https://youtu.be/ajQxxiOyL9E
 
+</details>
+
 # Homework 5
 
 ---
 
-<details>
-<summary>Homework 5 details</summary>
-</details>
-
 For this assignment we have to develop a ”Smart Environment Monitor and Logger” using Arduino. This system will utilize various sensors to gather environmental data, log this data into EEPROM, and provide both visual feedback via an RGB LED and user interaction through a Serial Menu. The project focuses on integrating sensor readings, memory management, Serial Communication and the general objective of building a menu.
 
+<details>
+<summary>Homework 5 details</summary>
 Requirements:Ultrasonic Sensor (HC-SR04), LDR (Light-Dependent Resistor), RGB LED, resistors and wires
 
 Menu Structure:
@@ -182,3 +182,5 @@ This is the code I used for this homework:
 https://github.com/TimiAndrei/IntroductionToRobotics/blob/b84167a92b1c72e83667ad7f2c28414c1e6615f7/Homework5/Homework5.ino
 
 Here is a video to see the working project: https://youtu.be/OSp2aD8tyY4
+
+</details>
