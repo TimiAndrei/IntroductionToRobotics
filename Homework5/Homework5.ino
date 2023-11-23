@@ -21,7 +21,7 @@ const int redColorAddr = 50;
 const int greenColorAddr = 52;
 const int blueColorAddr = 54;
 
-// Menu and Submenu State enums
+// Menu and Submenu State enums (cu litera mare de data asta :) )
 enum MenuState {
   sensorSettings,
   resetData,
@@ -138,6 +138,8 @@ void loop() {
   menu();
   handleReadings();
 }
+
+// The menu logic is following Stefan Simion's example and code might be similar in some cases
 
 void menu() {
   if (Serial.available() > 0) {
