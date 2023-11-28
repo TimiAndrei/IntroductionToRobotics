@@ -184,3 +184,30 @@ https://github.com/TimiAndrei/IntroductionToRobotics/blob/b84167a92b1c72e83667ad
 Here is a video to see the working project: https://youtu.be/OSp2aD8tyY4
 
 </details>
+
+# Homework 6
+
+---
+
+In this assignment we will develop a small game on the 8x8 matrix. The game must have at least 3 types of elements: player (blinks slowly), bombs/bullets (blinks fast), wall (doesn’t blink). The purpose of this to get you started with your matrix project. The basic idea is that you generate walls on the map (50% - 75% of the map) and then you move around with the player and destroy them.
+
+<details>
+<summary>Homework 6 details</summary>
+Requirements:Joystick, 8x8 LED Matrix, MAX7219, buzzer, resistors and wires
+
+The map is generated after the player position is determined randomly, the walls are also generated randomly based on the seed gathered from the floating value of A3 pin.
+
+The player will cast a bullet in the direction it last moved if the joystick button is pushed.
+
+At the end of the game, if all walls are destroyed, a GJ! message is displayed.
+
+To solve this assignment we will have a configuration like this:
+![Homework 6 setup](https://github.com/TimiAndrei/IntroductionToRobotics/blob/f3a6cc037e525e7da3d60fd97c77c267d958d6e9/Homework6/Homework6_irl.jpeg)
+
+This is the code I used for this homework:
+
+https://github.com/TimiAndrei/IntroductionToRobotics/blob/f3a6cc037e525e7da3d60fd97c77c267d958d6e9/Homework6/Homework6.ino
+
+Here is a video to see the working project: https://youtu.be/76gSHXKCoBI
+
+</details>
