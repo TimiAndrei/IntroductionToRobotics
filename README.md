@@ -248,6 +248,6 @@ This is the code I used for this homework:
 
 https://github.com/TimiAndrei/IntroductionToRobotics/blob/d47c1d4d76bf45ec10058f03a50e068904fe16af/Homework7/Homework7.ino
 
-Here is a video to see the working project: Soon to be uploaded
+Here is a video to see the working project: https://youtu.be/5p9jlCq-Hmk
 
 </details>
