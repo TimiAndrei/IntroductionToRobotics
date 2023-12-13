@@ -211,3 +211,43 @@ https://github.com/TimiAndrei/IntroductionToRobotics/blob/f3a6cc037e525e7da3d60f
 Here is a video to see the working project: https://youtu.be/76gSHXKCoBI
 
 </details>
+
+# Homework 7
+
+---
+
+In this assignment we added an LCD display with interacive menu controlled with the joystick. Possibility to change settings like LCD Brightness and the matrix led brightness.
+
+<details>
+<summary>Homework 7 details</summary>
+Requirements:Joystick, 8x8 LED Matrix, MAX7219, buzzer, LCD display, resistors and wires
+
+The menu structure and LCD functionality:
+
+1. Intro Message - When powering up the project, a greeting message should be shown for a few moments.
+2. Menu:
+   (a) Start game, starts the initial level of
+
+   (b) Settings
+   i. LCD brightness control. Save value to EEPROM and load it upon system start.
+   ii. Matrix brightness control (see function setIntesnity from the led-Control library). Make sure to display something on the matrix when selecting it. Save value to EEPROM and load it upon system start.
+
+   (c) About: should include details about the creator(s) of the game. At least game name, author and github link or user (use scrolling text?)
+
+3. End Message - When the game ends, add a message. Wait for a promt from the user (a button push, for example), before returning to main menu again.
+
+4. During gameplay:
+   (a) Show relevant details, that are dynamic (change with gameplay): time, level, lives etc. Doesn’t matter, what can be used. You can implement the number of LEDs that are still switched on.
+
+   (b) Implement an end game / level functionality. You current game should end. For example, if you implemented the game where you ”destroy all the LEDs, it should end when you finished them all. Upon ending, it should display the aforementioned message, wait for user prompt and then return to the main menu again.
+
+To solve this assignment we will have a configuration like this:
+![Homework 7 setup](https://github.com/TimiAndrei/IntroductionToRobotics/blob/d47c1d4d76bf45ec10058f03a50e068904fe16af/Homework7/Homework7_irl.jpeg)
+
+This is the code I used for this homework:
+
+https://github.com/TimiAndrei/IntroductionToRobotics/blob/d47c1d4d76bf45ec10058f03a50e068904fe16af/Homework7/Homework7.ino
+
+Here is a video to see the working project: Soon to be uploaded
+
+</details>
